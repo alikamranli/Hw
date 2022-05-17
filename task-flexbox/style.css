@@ -1,0 +1,41 @@
+body {
+    background: #ffffff;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.aa {}
+
+.info {
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-item {
+    width: 350px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 10px black;
+}
+
+.info-item img {
+    width: 100%;
+}
+
+.info-item p {
+    padding: 15px;
+}
