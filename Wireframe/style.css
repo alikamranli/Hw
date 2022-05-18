@@ -1,0 +1,60 @@
+/* Reset Default Styles */
+
+body {
+    margin: 0px;
+    background-color: rgb(228, 228, 228);
+}
+
+h1 {
+    margin: 0px;
+    font-weight: inherit;
+}
+
+.block {}
+
+.iphones {
+    width: 927px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.iphones-item {
+    border: 1px solid gray;
+    width: 300px;
+    height: 380px;
+    transition: all 0.2s linear;
+    font-family: 'Koulen', sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: 5400;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iphones-item img {
+    width: inherit;
+    height: 200px;
+    object-fit: cover;
+}
+
+.iphones-item h1 {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.iphones-item:hover {
+    box-shadow: inset 0px 0px 5px gray;
+    cursor: pointer;
+}
+
+.iphones-item h2 {
+    text-align: left;
+}
