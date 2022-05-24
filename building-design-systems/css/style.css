@@ -1,0 +1,84 @@
+/* aktual layihədə istifadə olunan digər spesifik xüsusiyyətlər */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* 1em=11px */
+    font-size: 11px;
+}
+
+
+/* infobar section start */
+
+#infobar {
+    background-color: rgb(43, 62, 74);
+}
+
+.infobar-info span {
+    font-size: 1.2em;
+    color: #929ba2;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.infobar-info span i {
+    font-size: 1.25em;
+    color: #32c36c;
+    margin-right: 5px;
+}
+
+.infobar-social a {
+    color: white;
+    font-size: 1.2em;
+}
+
+.infobar-social a i {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #32c36c;
+    color: rgb(43, 62, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* infobar section end */
+
+#navbar {
+    border: 1px solid red;
+}
+
+.navbar-logo img {
+    height: 60px;
+}
+
+.navbar-nav ul li a {
+    padding: 0px 10px;
+    font-size: 1.5em;
+}
+
+.navbar-nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav ul li a button {
+    background-color: #32c36c;
+    padding: 15px 25px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.navbar-nav ul li a sup {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #32c36c;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.6em;
+}
