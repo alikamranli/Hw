@@ -75,7 +75,7 @@
         color: white;
         display: inline-block;
         text-align: center;
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
     /* navbar section end */
     /* slider secton start */
@@ -87,11 +87,14 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+        position: relative;
     }
     
     .slider-content {
         height: inherit;
         padding-right: 50%;
+        position: inherit;
+        z-index: 4;
     }
     
     .slider-content h1 {
@@ -137,4 +140,59 @@
         color: white;
         margin-right: 15px;
     }
+    
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(0, 0, 0, .9) 0%, rgba(250, 250, 250, 0) 100%);
+        background-image: url(../images/pattern.png);
+        background-size: 5px;
+        opacity: .3;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
     /* slider section end */
+    /* shortinfo section start */
+    
+    #shortinfo {
+        border: 1px solid red;
+    }
+    
+    .shortinfo-item {
+        border: 1px solid green;
+        margin: 0px 30px;
+    }
+    
+    .shortinfo-item-icon {
+        font-size: 5em;
+        color: #32c36c
+    }
+    
+    .shortinfo-item-special {
+        background: #32c36c;
+        color: white;
+        position: absolute;
+        top: -186px;
+        left: 19px;
+        width: 530px;
+        height: 200px;
+        padding: 50px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    .shortinfo-item-special .shortinfo-item-icon {
+        color: white;
+        position: absolute;
+        top: -82px;
+        left: 40px;
+    }
+    
+    .shortinfo-item-special .shortinfo-item-detail {
+        color: white;
+        position: absolute;
+        top: -85px;
+        left: 129px;
+    }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar {
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            list-style: none
+        }
+        
+        .navbar li {
+            padding: 5px 10px;
+            background: lightgray;
+            border: 1px solid gray;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .navbar>li ul {
+            display: none;
+            position: absolute;
+        }
+        
+        .navbar>li:hover ul {
+            display: block
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="navbar">
+        <li>Home Page
+            <ul>
+                <li>Home sublink</li>
+                <li>Home sublink</li>
+                <li>Home sublink</li>
+            </ul>
+        </li>
+        <li>About
+            <ul>
+                <li>About sublink</li>
+                <li>About sublink</li>
+                <li>About sublink</li>
+            </ul>
+        </li>
+        <li>Contact</li>
+
+    </ul>
+</body>
+
+</html>
