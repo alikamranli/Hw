@@ -8,12 +8,11 @@
         width: 1450px;
         height: 420px;
         position: relative;
-        display: flex;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     
     .product-box {
         display: inline-block;
-        display: flex;
         flex-direction: column;
         position: relative;
         box-shadow: 1px 1px 2px gray;
@@ -57,8 +56,8 @@
         border: 1px solid black;
         border-radius: 50%;
         top: 10px;
+        box-sizing: border-box;
         left: 10px;
-        display: flex;
         padding-left: 2px;
         padding-top: 2px;
     }
@@ -70,7 +69,7 @@
         width: 100px;
         height: 25px;
         padding: 3px 25px;
-        display: flex;
+        box-sizing: border-box;
         border-radius: 5px;
         color: white;
         right: -8px;
@@ -93,7 +92,6 @@
         position: absolute;
         right: 10px;
         bottom: 150px;
-        display: flex;
         align-items: center;
         justify-content: center;
     }
@@ -115,9 +113,9 @@
         height: 40px;
         border-radius: 5px;
         position: absolute;
+        box-sizing: border-box;
         right: 10px;
         bottom: 10px;
-        display: flex;
         padding-top: 10px;
         padding-left: 45px;
     }

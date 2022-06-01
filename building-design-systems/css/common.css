@@ -1,8 +1,3 @@
-/* Aktual layihədə daimi təkrarlanan xüsusiyyətlərin toplusu */
-
-
-/* Flex classes */
-
 .flex {
     display: flex;
 }
@@ -54,7 +49,7 @@
 }
 
 .p-5 {
-    padding: 25px;
+    padding: 23px;
 }
 
 
